@@ -15,7 +15,7 @@ class Scraper
       student_details[:profile_url] = './fixtures/student-site/' + profile_path
       scraped_students << student_details
     end
-    students
+    scraped_students
   end
 
  def self.scrape_profile_page(profile_url)
